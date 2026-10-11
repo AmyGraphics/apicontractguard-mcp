@@ -36,3 +36,10 @@ Solana USDC:
 ```text
 8sDLX3okSV974wdjdeKhN9uWLZDr45DeGCJ28zgTLEdJ
 ```
+
+
+## Why this MCP is worth using
+
+OpenAPI + read-only probes → before/after regression evidence and PASS/BLOCK release decision.
+
+This outcome is the product value; the tool count is only an implementation detail.

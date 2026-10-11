@@ -1,6 +1,6 @@
 # 🔌 APIContractGuard MCP
 
-Safe live API contract validation, drift detection and release gating.
+Safe live API contract validation, before/after regression diff, drift detection and release gating.
 
 APIContractGuard parses OpenAPI JSON, probes read-only endpoints, compares expected behavior, detects contract drift and creates a release gate. Mutating methods are never automatically called.
 
@@ -12,6 +12,7 @@ APIContractGuard parses OpenAPI JSON, probes read-only endpoints, compares expec
 - `schema.validate_live`
 - `contract.drift_live`
 - `api.health_report_live`
+- `contract.baseline_diff`
 - `release.gate`
 
 ## Quick start
